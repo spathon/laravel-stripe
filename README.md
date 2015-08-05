@@ -8,8 +8,8 @@
 
 
 #### Usage
-All this package is doing is setting the Stripe secret key so you can use the Stripe SDK anywhere anytime.
-
+All this package is doing is setting the Stripe secret key so you can use the Stripe SDK anywhere anytime.  
+Basicly just add `use Stripe\Stripe;`
 
 ##### Why?
 I created this package mostly to learn how to make a package.
