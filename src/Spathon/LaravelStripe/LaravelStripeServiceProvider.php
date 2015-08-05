@@ -18,4 +18,11 @@ class LaravelStripeServiceProvider extends ServiceProvider
     {
       Stripe::setApiKey(Config::get('services.stripe.secret'));
     }
+
+    /**
+     * Register bindings in the container.
+     *
+     * @return void
+     */
+    public function register() {}
 }
