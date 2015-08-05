@@ -2,7 +2,7 @@
 
 namespace Spathon\LaravelStripe;
 
-use Stripe;
+use Stripe\Stripe;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 
